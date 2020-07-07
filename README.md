@@ -10,6 +10,32 @@ https://drive.google.com/file/d/1KKSx2lTGIz8hDnqWLS_wxO8oqEnZeTQP/view?usp=shari
 ## Trained Model
 https://drive.google.com/drive/folders/1VXXgZnBNNuq1PeLXon7Bjl1EOZeBigdB?usp=sharing
 
+To load this model, first install transformers library (from source) and simpletransformers library:
+```
+git clone https://github.com/huggingface/transformers
+cd transformers
+pip install .
+pip install "simpletransformers"==0.34.4
+```
+
+Then load the model (replace `/foldername` with the path of the downloaded model):
+```
+from simpletransformers.classification import MultiLabelClassificationModel
+model = MultiLabelClassificationModel('roberta', '/foldername', args={})
+```
+
+To predict tone of any new text:
+
+```
+df = df.text.apply(lambda x: x.replace('\n', ' ')).tolist()
+preds, outputs = model.predict(df)
+predicted_tones = pd.DataFrame(outputs, columns=['anger','fear','joy','sadness','analytical','confident', 'tentative'])
+
+```
+
+
+
+
 ## Results
 Evaluation Loss           |  Label Ranking Average Precision (LRAP)
 :-------------------------:|:-------------------------:
