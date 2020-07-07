@@ -12,3 +12,6 @@ Evaluation Loss           |  Label Ranking Average Precision (LRAP)
 :-------------------------:|:-------------------------:
 ![](https://raw.githubusercontent.com/ahazeemi/MSDS19003_Project_DLSpring2020/master/results/eval_loss.png)  |  ![](https://raw.githubusercontent.com/ahazeemi/MSDS19003_Project_DLSpring2020/master/results/lrap.png)
 
+
+### Model Comparison
+<img src="https://raw.githubusercontent.com/ahazeemi/MSDS19003_Project_DLSpring2020/master/results/model_comparison.png" width="500">
