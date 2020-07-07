@@ -1,4 +1,4 @@
-# MSDS19003_COVID19TweetsAnalysis_DLSpring2020
+# COVID-19 Tweets Analysis through Transformer Language Models
 
 ## Abstract
 
