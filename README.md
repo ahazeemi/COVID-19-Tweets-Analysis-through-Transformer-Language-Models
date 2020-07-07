@@ -1,4 +1,4 @@
-# MSDS19003_Project_DLSpring2020
+# MSDS19003_COVID19TweetsAnalysis_DLSpring2020
 
 ## Abstract
 
