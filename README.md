@@ -7,6 +7,9 @@ Understanding the public sentiment and perception in a healthcare crisis is esse
 ## Dataset
 https://drive.google.com/file/d/1KKSx2lTGIz8hDnqWLS_wxO8oqEnZeTQP/view?usp=sharing
 
+## Trained Model
+https://drive.google.com/drive/folders/1VXXgZnBNNuq1PeLXon7Bjl1EOZeBigdB?usp=sharing
+
 ## Results
 Evaluation Loss           |  Label Ranking Average Precision (LRAP)
 :-------------------------:|:-------------------------:
