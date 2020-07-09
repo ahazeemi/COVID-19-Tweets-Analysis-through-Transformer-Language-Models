@@ -10,7 +10,7 @@ https://drive.google.com/file/d/1KKSx2lTGIz8hDnqWLS_wxO8oqEnZeTQP/view?usp=shari
 ## Trained Model
 https://drive.google.com/drive/folders/1VXXgZnBNNuq1PeLXon7Bjl1EOZeBigdB?usp=sharing
 
-To load this model, first install transformers library (from source) and simpletransformers library:
+To load this model, first install [transformers library](https://github.com/huggingface/transformers) (from source) and [simpletransformers](https://github.com/ThilinaRajapakse/simpletransformers) library:
 ```
 git clone https://github.com/huggingface/transformers
 cd transformers
