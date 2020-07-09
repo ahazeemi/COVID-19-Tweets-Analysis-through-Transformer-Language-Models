@@ -33,6 +33,16 @@ predicted_tones = pd.DataFrame(outputs, columns=['anger','fear','joy','sadness',
 
 ```
 
+## Methodology
+
+1. We collect 600,000 COVID-19 tweets which contain the following information: user-id, tweet, tweet-id, followers, location.
+2. We preprocess this dataset to retain high-quality tweets.
+3. We label the tone 12,000 tweets using IBM watson tone analyzer API.
+4. We perform supervised fine-tuning of multiple transformer language models on this dataset (RoBERTA, BERT, XLnet, Electra)
+5. We perform supervised fine-tuning of multiple transformer language models on this dataset (RoBERTA, BERT, XLnet, Electra)
+6. We predict the tone of 200,000 COVID19 tweets using this trained model.
+7. Lastly, we extract useful insights about the psychological condition of people throughout the timeline of COVID-19 pandemic.
+
 
 
 
